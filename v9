@@ -240,7 +240,7 @@ function updateBird() {
         birdY = height - 15;
         birdVelocity = 0;
     }
-    //checkCollision();
+    checkCollision();
 }
 
 function drawPipes() {
